@@ -22,7 +22,7 @@
     path: '/welcome',
     name: 'welcome',
     icon: 'smile',
-    component: './Welcome/index',
+    component: './Welcome',
   },
   {
     path: '/admin',
@@ -35,7 +35,7 @@
         path: '/admin/sub-page',
         name: 'sub-page',
         icon: 'smile',
-        component: './Welcome/index',
+        component: './Welcome',
       },
       {
         component: './404',
